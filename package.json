@@ -1,0 +1,23 @@
+{
+  "name": "cron-ticker",
+  "version": "1.0.0",
+  "description": "Aplicación para ser desplegada en Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merxxotas/cron-ticker.git"
+  },
+  "author": "Brayan Marin Guirales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merxxotas/cron-ticker/issues"
+  },
+  "homepage": "https://github.com/Merxxotas/cron-ticker#readme",
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
