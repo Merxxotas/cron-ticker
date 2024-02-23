@@ -4,7 +4,7 @@
   "description": "Aplicación para ser desplegada en Docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node app.js"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Merxxotas/cron-ticker#readme",
   "dependencies": {
     "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
